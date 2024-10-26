@@ -1,10 +1,8 @@
-// scripts/main.js
+// src/scripts/main.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from '../App'; // Importa el componente principal App
 
-// Función para inicializar el comportamiento del encabezado
-function initHeader() {
-  // Lógica de inicialización del encabezado
-  console.log('Header initialized');
-}
+// Renderiza la aplicación en el elemento con id "root"
+ReactDOM.render(<App />, document.getElementById('root'));
 
-// Ejecutar la función cuando el DOM esté listo
-document.addEventListener('DOMContentLoaded', initHeader);
