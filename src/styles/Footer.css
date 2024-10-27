@@ -1,0 +1,72 @@
+/* styles/Footer.css */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; /* Distribuir espacio equitativamente */
+    flex-wrap: wrap; 
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .footer .contact-section,
+  .footer .footer-info,
+  .footer .social-links {
+    flex: 1; /* Cada sección ocupará un espacio igual */
+    padding: 0 20px; /* Añade algo de espacio interno */
+  }  
+  .footer .footer-info p,
+  .footer .contact-section h3,
+  .footer .contact-section ul,
+  .footer .contact-section li,
+  .footer .contact-section li a,
+  .footer .social-links .social-button {
+  font-size: 10px; 
+  }
+  .footer .contact-section h3 {
+    color: white;
+    margin-top: 0;
+  }
+  
+  .footer .contact-section ul {
+    color: white;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer .contact-section ul li {
+      color: white;
+    margin: 3px 0;
+  }
+  
+  .footer .contact-section ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer .contact-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .social-links {
+    margin-top: 10px;
+  }
+  
+  .footer .social-links .social-button {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer .social-links .social-button:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .footer-info p {
+    margin: 5px 0;
+  }
+  

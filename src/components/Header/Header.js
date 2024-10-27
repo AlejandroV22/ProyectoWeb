@@ -8,7 +8,7 @@ const Header = () => {
       <div className="logo">
       <img src={require('../../images/capibara.jpg')} alt="Logo" />
       </div>
-      <h1 className="title">Gestión de taller mecánico</h1>
+      <h1 className="title">Gestión de taller de autos</h1>
     </header>
   );
 }
